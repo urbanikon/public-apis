@@ -1,0 +1,2 @@
+import requests
+word = requests.get('http://setgetgo.com/randomword/get.php').text
